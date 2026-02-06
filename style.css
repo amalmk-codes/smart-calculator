@@ -1,28 +1,26 @@
 body {
+  background: #111;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #121212;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 .calculator {
-  background: #1f1f1f;
+  background: #222;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 10px;
   width: 260px;
 }
 
 #display {
   width: 100%;
   height: 50px;
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 10px;
-  padding: 10px;
   text-align: right;
-  border: none;
-  border-radius: 6px;
+  padding-right: 10px;
 }
 
 .buttons {
@@ -40,7 +38,8 @@ button {
 }
 
 button:hover {
-  opacity: 0.8;
+  background: #444;
+  color: white;
 }
 
 .zero {
